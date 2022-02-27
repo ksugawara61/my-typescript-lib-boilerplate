@@ -13,7 +13,13 @@ $ yarn install
 ## Run
 
 ```
-$ yarn ts-node bin/index.ts
+$ yarn ts-node src/bin/index.ts
+```
+
+or
+
+```
+$ yarn node dist/bin/index.js
 ```
 
 ## Build
@@ -32,7 +38,12 @@ $ yarn lint
 
 ```
 $ yarn test
-$ npx http-server -o coverage/lcov-report # see also coverage report in your browser
+```
+
+and see also coverage report in your browser
+
+```
+$ npx http-server -o coverage/lcov-report
 ```
 
 ## Format
